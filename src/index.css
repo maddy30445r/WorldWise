@@ -1,0 +1,99 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+  /* filter: invert(80%) hue-rotate(180deg) brightness(95%) contrast(90%); */
+/* } */ 
+body{
+  font-family: "Montserrat", sans-serif;
+}
+.react-datepicker-wrapper{
+  width: 100%;
+}
+/* 
+.countries{
+ 
+    line-height: 0;
+     
+    -webkit-column-count: 2;
+    -webkit-column-gap:   10px;
+    
+    -moz-column-count:    2;
+    -moz-column-gap:      10px;
+    column-count:         2;
+    column-gap:           10px;  
+  
+  
+}
+.country{
+    width: 100% !important;
+    height: auto !important;
+} */
+
+.leaflet-popup-content-wrapper{
+  border-radius: 5px;
+  background-color: #242A2E;
+  /* transform: scale(.9); */
+  color: white;
+  border-left: 5px solid #22C55E;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  text-decoration: underline;
+  /* padding: .1px; */
+  padding: 2px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  /* padding: 1px 2px; */
+  align-items: center;
+}
+.leaflet-popup-tip{
+  background-color: #242A2E;
+}
+
+.navbar.active{
+  color: #22C55E;
+}
+
+.appnav.active{
+  border-radius: 5px;
+  background-color: #242A2E;
+}
+
+
+*::-webkit-scrollbar{
+ 
+  width: 3px;
+  
+ 
+ 
+  height: 10px;
+  
+}
+*::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background-color:#808282;
+}
+*::-webkit-scrollbar-track{
+  background: transparent;
+
+}
+*::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 10px; 
+}
+*::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 10px;
+}
+
