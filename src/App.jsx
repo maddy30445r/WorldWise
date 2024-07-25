@@ -1,12 +1,12 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { CitiesProvider } from "./context/CitiesContext";
-// import Homepage from "./pages/Homepage";
-// import Product from "./pages/Product";
-// import Pricing from "./pages/Pricing";
-// import Login from "./pages/Login";
-// import Missing from "./pages/Missing";
-// import AppLayout from "./pages/AppLayout";
+import Homepage from "./pages/Homepage";
+import Product from "./pages/Product";
+import Pricing from "./pages/Pricing";
+import Login from "./pages/Login";
+import Missing from "./pages/Missing";
+import AppLayout from "./pages/AppLayout";
 import Cities from "./Cities";
 import Countries from "./Countries";
 import CityDetails from "./CityDetails";
@@ -15,22 +15,22 @@ import { Authprovider } from "./context/Authcontext";
 import Protectedroute from "./pages/Protectedroute";
 import { ThreeDots } from "react-loader-spinner";
 
-const Homepage = lazy(() => import("./pages/Homepage"));
-const Product = lazy(() => import("./pages/Product"));
-const Pricing = lazy(() => import("./pages/Pricing"));
-const AppLayout = lazy(() => import("./pages/AppLayout"));
-const Missing = lazy(() => import("./pages/Missing"));
-const Login = lazy(() => import("./pages/Login"));
+// const Homepage = lazy(() => import("./pages/Homepage"));
+// const Product = lazy(() => import("./pages/Product"));
+// const Pricing = lazy(() => import("./pages/Pricing"));
+// const AppLayout = lazy(() => import("./pages/AppLayout"));
+// const Missing = lazy(() => import("./pages/Missing"));
+// const Login = lazy(() => import("./pages/Login"));
 function App() {
   return (
     <Authprovider>
       <CitiesProvider>
         <BrowserRouter>
-          <Suspense
+          {/* <Suspense
             fallback={
-             <div className="w-full h-[100vh] bg-[#2D3439] flex items-center justify-center">
+             <div className="w-full h-[100vh] bg-[#2D3439] flex items-center justify-center"> */}
 
-              <ThreeDots
+              {/* <ThreeDots
                 visible={true}
                 height="80"
                 width="80"
@@ -41,7 +41,7 @@ function App() {
                 wrapperClass=""
                 />
                 </div>
-            }>
+            }> */}
             <Routes>
               <Route path="/" element={<Homepage />} />
               <Route path="/product" element={<Product />} />
@@ -68,7 +68,7 @@ function App() {
 
               <Route path="*" element={<Missing />} />
             </Routes>
-          </Suspense>
+          {/* </Suspense> */}
         </BrowserRouter>
       </CitiesProvider>
     </Authprovider>
