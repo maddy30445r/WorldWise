@@ -1,48 +1,26 @@
 {
   "cities": [
     {
-      "cityName": "Ghaziabad",
+      "cityName": "Amsterdam",
+      "country": "Netherlands (Kingdom of the)",
+      "date": "2024-07-25T07:45:31.854Z",
+      "notes": "An Amazing place to  be....😍",
+      "position": {
+        "lat": "52.362629689134664",
+        "lng": "4.899984878152034"
+      },
+      "id": 1
+    },
+    {
+      "cityName": "Firozabad",
       "country": "India",
-      "date": "2024-07-24T08:51:14.292Z",
-      "notes": "",
+      "date": "2024-07-25T07:46:11.367Z",
+      "notes": "City of Bangles...💓",
       "position": {
-        "lat": "28.643014770894915",
-        "lng": "77.36504921376552"
+        "lat": "27.165278",
+        "lng": "78.3907842"
       },
-      "id": 10
-    },
-    {
-      "cityName": "Botaqara",
-      "country": "Kazakhstan",
-      "date": "2024-07-24T08:55:30.439Z",
-      "notes": "",
-      "position": {
-        "lat": "50.18459532035672",
-        "lng": "72.78014158059364"
-      },
-      "id": 14
-    },
-    {
-      "cityName": "Pingliang",
-      "country": "China",
-      "date": "2024-07-24T12:20:58.760Z",
-      "notes": "",
-      "position": {
-        "lat": "35.424933614098364",
-        "lng": "105.53436557977703"
-      },
-      "id": 15
-    },
-    {
-      "cityName": "Delhi",
-      "country": "India",
-      "date": "2024-07-25T07:15:21.377Z",
-      "notes": "",
-      "position": {
-        "lat": "28.63246376710009",
-        "lng": "77.3100697287922"
-      },
-      "id": 16
+      "id": 2
     }
   ]
 }
