@@ -8,7 +8,7 @@ function Homepage() {
     <>
     <div className=' p-5 h-screen  w-screen  '>
         <div className='h-full w-full'>
-            <img  className=" h-full w-full object-cover object-center brightness-[.3] backdrop-brightness-50"src="/public/bg-fZeaHSuw9-transformed.jpeg " alt="" />
+            <img  className=" h-full w-full object-cover object-center brightness-[.3] backdrop-brightness-50"src="/bg-fZeaHSuw9-transformed.jpeg " alt="" />
 
 <div className='flex flex-col absolute top-[5%] w-[90%] left-[50%] translate-x-[-50%] space-y-10'>
     <PageNav/>

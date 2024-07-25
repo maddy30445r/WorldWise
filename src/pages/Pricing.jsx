@@ -17,7 +17,7 @@ function Pricing() {
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus labore facere expedita dolorum, rerum, sed deleniti esse adipisci, tempora sequi molestiae? Numquam tenetur dignissimos in consequatur fuga blanditiis ea porro?</div>
 
         </div>
-        <img className='h-[25rem] w-[25rem]' src="/public/img-2.jpg" alt="" />
+        <img className='h-[25rem] w-[25rem]' src="/img-2.jpg" alt="" />
 
     </div>
     </div>

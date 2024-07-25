@@ -6,7 +6,7 @@ function PageNav() {
     <div className="w-full flex  justify-between p-2">
       <NavLink className="navbar" to="/">
 
-      <img className="w-[200px] h-[50px] " src="/public/logo.png " alt="" />
+      <img className="w-[200px] h-[50px] " src="/logo.png " alt="" />
       </NavLink>
 
       <div className="flex space-x-8 uppercase text-md text-white items-center cursor-pointer">

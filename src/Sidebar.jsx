@@ -7,7 +7,7 @@ function Sidebar() {
     <div className='w-[calc(max(40vw,400px))] flex flex-col  items-center py-7'>
 
 <Link to="/">
-<img className="w-[210px] h-[50px] " src="/public/logo.png " alt="" />
+<img className="w-[210px] h-[50px] " src="/logo.png " alt="" />
 </Link>
 
 <AppNav/>

@@ -8,7 +8,7 @@ function Product() {
             <PageNav/>
 
         <div className=' h-[40%] productmain mx-auto space-x-14 text-white my-10 flex w-[60%] '>
-            <img className='h-[25rem] w-[25rem]' src="/public/img-1.jpg" alt="" />
+            <img className='h-[25rem] w-[25rem]' src="/img-1.jpg" alt="" />
 
             <div className='flex flex-col space-y-8 justify-center'>
                 <div className='text-4xl font-semibold '>About WorldWise.</div>

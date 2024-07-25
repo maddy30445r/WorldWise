@@ -1,39 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Tura",
-      "country": "Russian Federation (the)",
-      "date": "2024-07-24T08:16:09.958Z",
-      "notes": "",
-      "position": {
-        "lat": "63.62761467944596",
-        "lng": "97.64880286953866"
-      },
-      "id": 4
-    },
-    {
-      "cityName": "London",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "date": "2024-07-24T08:37:22.577Z",
-      "notes": "",
-      "position": {
-        "lat": "51.51612117858607",
-        "lng": "-0.08582457798642862"
-      },
-      "id": 6
-    },
-    {
-      "cityName": "Debe Wielkie",
-      "country": "Poland",
-      "date": "2024-07-24T08:39:39.665Z",
-      "notes": "",
-      "position": {
-        "lat": "52.22120923503969",
-        "lng": "21.433428802753873"
-      },
-      "id": 8
-    },
-    {
       "cityName": "Ghaziabad",
       "country": "India",
       "date": "2024-07-24T08:51:14.292Z",
@@ -43,28 +10,6 @@
         "lng": "77.36504921376552"
       },
       "id": 10
-    },
-    {
-      "cityName": "Tianshui",
-      "country": "China",
-      "date": "2024-07-24T08:51:28.624Z",
-      "notes": "",
-      "position": {
-        "lat": "34.815455398391585",
-        "lng": "104.9858438934186"
-      },
-      "id": 11
-    },
-    {
-      "cityName": "Willippa",
-      "country": "Australia",
-      "date": "2024-07-24T08:51:45.470Z",
-      "notes": "",
-      "position": {
-        "lat": "-31.88037822467621",
-        "lng": "139.2353425994693"
-      },
-      "id": 13
     },
     {
       "cityName": "Botaqara",
@@ -87,6 +32,17 @@
         "lng": "105.53436557977703"
       },
       "id": 15
+    },
+    {
+      "cityName": "Delhi",
+      "country": "India",
+      "date": "2024-07-25T07:15:21.377Z",
+      "notes": "",
+      "position": {
+        "lat": "28.63246376710009",
+        "lng": "77.3100697287922"
+      },
+      "id": 16
     }
   ]
 }
