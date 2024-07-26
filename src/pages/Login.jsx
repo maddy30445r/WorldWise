@@ -7,7 +7,6 @@ function Login() {
   const [email, setemail] = useState("mittalmadhur19@gmail.com");
   const [password, setpassword] = useState("123456");
   const { isauth, login, error } = useAuth();
-  const [Error, setError] = useState("");
   const[clicked,setclicked]=useState(0);
   const navigate = useNavigate();
 

@@ -15,6 +15,7 @@ const initialState = {
   error: "",
 };
 
+
 function reducer(state, action) {
   //we cannot put api request here because only pure functions can be out inside the reducer.when async data and cxode is involved
 
@@ -60,7 +61,7 @@ function CitiesProvider({ children }) {
     async function getcities() {
       dispatch({ type: "loading" });
       try {
-        const cities = await fetch("http://localhost:3030/cities");
+        const cities = await fetch("https://render-worldwiseapi.onrender.com/cities");
         if (!cities.ok) {
           throw new Error("Failed to fetch cities");
         }
@@ -81,7 +82,7 @@ const getCity= useCallback( async function getcity(id) {
     if(currcity.id==Number(id))return;
     dispatch({ type: "loading" });
     try {
-      const cities = await fetch(`http://localhost:3030/cities/${id}`);
+      const cities = await fetch(`https://render-worldwiseapi.onrender.com/cities/${id}`);
       if (!cities.ok) {
         throw new Error("Failed to fetch cities");
       }
@@ -97,7 +98,7 @@ const getCity= useCallback( async function getcity(id) {
     dispatch({ type: "loading" });
 
     try {
-      const res = await fetch(`http://localhost:3030/cities`, {
+      const res = await fetch(`https://render-worldwiseapi.onrender.com/cities`, {
         method: "POST",
         body: JSON.stringify(newcity),
         headers: { "Content-Type": "application/json" },
@@ -116,7 +117,7 @@ const getCity= useCallback( async function getcity(id) {
     dispatch({ type: "loading" });
 
     try {
-      await fetch(`http://localhost:3030/cities/${id}`, {
+      await fetch(`https://render-worldwiseapi.onrender.com/cities/${id}`, {
         method: "DELETE",
       });
       // setcities((cities) => cities.filter((city) => city.id != id));
